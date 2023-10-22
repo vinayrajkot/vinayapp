@@ -1,0 +1,98 @@
+<style>
+.parent {
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+  }
+  .child {
+    display: inline-block;
+    border: 1px solid red;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+  }
+  </style>
+
+
+
+<div class='parent'>
+    <div class='child'><img src="formbackground.JPG"></div>
+    <div class='child'>
+        <p>enter sign and photo</p>
+        <form style="text-align: left;" method="post">
+            <label for="enrolno">Enrol. No.: </label>
+            <input type="text" id="enrolno" name="enrolno"><br><br>
+            <label for="examname">Name of Examination: </label>
+            <input type="text" id="examname" name="examname">
+            <label for="year">Year: </label>
+            <input type="text" id="year" name="year">
+            <br><br>
+            <label>Name of Candidate as per HSC Marksheet: </label>
+            <input type="text" id="lname_form" name="lname_form" placeholder="Surname">
+            <input type="text" id="fname_form" name="fname_form" placeholder="First name">
+            <input type="text" id="mname_form" name="mname_form" placeholder="Father's name">
+            <br><br>
+            <label>Name of Candidate as required in this course: </label>
+            <input type="text" id="lname_pers" name="lname_pers" placeholder="Surname">
+            <input type="text" id="fname_pers" name="fname_pers" placeholder="First name">
+            <input type="text" id="mname_pers" name="mname_pers" placeholder="Middle name">
+            <br><br>
+            <label>Father's/Husband's Name: </label>
+            <input type="text" id="lname_pers" name="lname_pers" placeholder="Surname">
+            <input type="text" id="fname_pers" name="fname_pers" placeholder="First name">
+            <input type="text" id="mname_pers" name="mname_pers" placeholder="Middle name">
+            <br><br>
+            <label>Address Present: </label>
+            <input type="text" size="100px;" id="address_pres" name="address_pres" placeholder="Enter Address">
+            <br><br>
+            <label>Address Permanent: </label>
+            <input type="text" size="100px;" id="address_perm" name="address_perm" placeholder="Enter Address">
+            <br><br>
+            <label>Date of Birth: </label>
+            <input type="date" id="dateofbirth" name="dateofbirth">
+            <label>Nationality: </label>
+            <select id="nationality" name="nationality">
+              <option value="india">India</option>
+              <option value="other">Others</option>
+          </select>
+            <label>Gender: </label>
+            <select id="gender" name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+            <br><br>
+            <label>Phone 1: </label>
+            <input type="numeric" id="phone1" name="phone1" placeholder="Phone">
+            <label>Phone 2: </label>
+            <input type="numeric" id="phone2" name="phone2" placeholder="Phone">
+            <br><br>
+            <label>Email 1: </label>
+            <input type="email" id="email1" name="email1" placeholder="Email">
+            <label>Email 2: </label>
+            <input type="email" id="email" name="email2" placeholder="Email">
+            <br><br>
+            <label>Place of form: </label>
+            <select id="placeofform" name="placeofform">
+                <option value="rajkot">Rajkot</option>
+                <option value="baroda">Baroda</option>
+                <option value="ahmedabad">Ahmedabad</option>
+                <option value="other">Others</option>
+            </select>
+            <label>Date of Form: </label>
+            <input type="date" id="dateofform" name="dateofform">
+            <br><br>
+            <label>Enclosure 1: </label>
+            <input type="text" id="enclosure1" name="enclosure1" placeholder="Enclosure">
+            <br><br>
+            <label>Enclosure 2: </label>
+            <input type="text" id="enclosure2" name="enclosure2" placeholder="Enclosure">
+            <br><br>
+            <label>Enclosure 3: </label>
+            <input type="text" id="enclosure3" name="enclosure3" placeholder="Enclosure">
+            <br><br>
+            <input type="submit" value="Preview">
+        </form>
+
+    </div>
+  </div>
+  
